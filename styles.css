@@ -1,0 +1,63 @@
+html body  {
+    margin: 0
+}
+
+body {
+    background-color: #F4F4ED;
+    font-family: 'Benne', serif;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 5em;
+    margin: .3em;
+}
+content {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 20px;
+}
+
+div {
+    margin: 10px;
+}
+div p {
+    font-size: 1.15em;
+}
+img {
+    width: 350px;
+    height: auto;
+    margin-right: 20px;
+}
+
+a {
+    color: #FB62F6;
+}
+
+@media only screen and (max-width: 520px) {
+    h1{
+        font-size: 2.5em;
+    }
+
+    content{
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+
+    img {
+        width: 280px;
+        height: auto;
+        margin-right: 0px;
+    }
+
+    div{
+        margin: 15px;
+    }
+
+    div p {
+        font-size: 1em;
+    }
+}
